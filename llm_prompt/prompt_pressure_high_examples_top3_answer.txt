@@ -1,0 +1,24 @@
+You are a respiratory expert in snoring. You need to select the appropriate ventilator for the patient based on their clinical data. Mainly, the high-pressure parameters of the ventilator are up to you to decide.
+
+The characteristics of this patient are: {patient_features}
+
+Relevant feature descriptions:
+{relations}
+
+########Task########
+To enhance the accuracy of the recommendations, we will provide you with several cases of similar patients so that you can make better choices based on these patient cases.
+Please remember that our goal is to refer to these cases and relationships and make a selection and recommendation for the determination of the high pressure range of the ventilator based on your own judgment.
+
+Please select the ventilator parameters of the following case as the answer. The patient cases related to the "high pressure" of the ventilator are as follows:
+{examples}
+
+Classification description of high-pressure values of ventilators:
+The "pressure_high": "High_Pressure" setting can only be selected from three options: "Low", "Mid" and "High". "Low" is "High_Pressure_Low", the range of the corresponding values is less than or equal to 12.0. "Mid" is "High_Pressure_Mid", the range of the corresponding values is greater than 12.0 and less than or equal to15.0. "High" is "High_Pressure_High", the range of the corresponding values is greater than 15.0. Please select a suitable range of "pressure_high" based on the ranges of these three intervals.
+
+The definitions of the prediction targets are as follows：
+The "pressure_high": "High_Pressure" Definition：The maximum allowable pressure of the automatic pressure-regulating ventilator is the upper limit that the machine can gradually increase to when encountering an airway obstruction event.
+
+########Output########
+{{"pressure_high": [answer_1, answer_2, answer_3]}}
+
+In conclusion, return only a valid JSON object. The value for "pressure_high" must be an array of exactly three items, chosen only from ["High_Pressure_Low", "High_Pressure_Mid", "High_Pressure_High"]. The three items must be distinct (no duplicates) and ordered from most to least confident (i.e., index 0 = your best choice). Do not include any explanation, comments, or extra text—JSON only.

@@ -1,0 +1,125 @@
+{
+  "BMI_VeryLow": "The meaning of BMI_VeryLow is that BMI ≤ 24.39.",
+  "BMI_Low": "The meaning of BMI_Low is that BMI > 24.39 and ≤ 26.12.",
+  "BMI_Mid": "The meaning of BMI_Mid is that BMI > 26.12 and ≤ 27.69.",
+  "BMI_High": "The meaning of BMI_High is that BMI > 27.69 and ≤ 29.75.",
+  "BMI_VeryHigh": "The meaning of BMI_VeryHigh is that BMI > 29.75.",
+
+  "Neck_VeryLow": "The meaning of Neck_VeryLow is that neck circumference ≤ 36.",
+  "Neck_Low": "The meaning of Neck_Low is that neck circumference > 36 and ≤ 38.",
+  "Neck_Mid": "The meaning of Neck_Mid is that neck circumference > 38 and ≤ 39.",
+  "Neck_High": "The meaning of Neck_High is that neck circumference > 39 and ≤ 41.",
+  "Neck_VeryHigh": "The meaning of Neck_VeryHigh is that neck circumference > 41.",
+
+  "Age_Low": "The meaning of Age_Low is that age ≤ 33.",
+  "Age_Mid": "The meaning of Age_Mid is that age > 33 and ≤ 39.",
+  "Age_High": "The meaning of Age_High is that age > 39 and ≤ 48.",
+  "Age_Extreme": "The meaning of Age_Extreme is that age > 48.",
+
+  "ESS_VeryLow": "The meaning of ESS_VeryLow is that ESS ≤ 3.0.",
+  "ESS_Low": "The meaning of ESS_Low is that ESS > 3.0 and ≤ 5.0.",
+  "ESS_Mid": "The meaning of ESS_Mid is that ESS > 5.0 and ≤ 7.0.",
+  "ESS_High": "The meaning of ESS_High is that ESS > 7.0 and ≤ 10.0.",
+  "ESS_VeryHigh": "The meaning of ESS_VeryHigh is that ESS > 10.0.",
+
+  "AHI_VeryLow": "The meaning of AHI_VeryLow is that AHI ≤ 26.2.",
+  "AHI_Low": "The meaning of AHI_Low is that AHI > 26.2 and ≤ 42.",
+  "AHI_Mid": "The meaning of AHI_Mid is that AHI > 42 and ≤ 57.",
+  "AHI_High": "The meaning of AHI_High is that AHI > 57 and ≤ 70.9.",
+  "AHI_VeryHigh": "The meaning of AHI_VeryHigh is that AHI > 70.9.",
+
+  "ODI_VeryLow": "The meaning of ODI_VeryLow is that ODI ≤ 21.8.",
+  "ODI_Low": "The meaning of ODI_Low is that ODI > 21.8 and ≤ 36.51.",
+  "ODI_Mid": "The meaning of ODI_Mid is that ODI > 36.51 and ≤ 51.4.",
+  "ODI_High": "The meaning of ODI_High is that ODI > 51.4 and ≤ 66.",
+  "ODI_VeryHigh": "The meaning of ODI_VeryHigh is that ODI > 66.",
+
+  "minSpO2_VeryLow": "The meaning of minSpO2_VeryLow is that minimum SpO2 ≤ 67.",
+  "minSpO2_Low": "The meaning of minSpO2_Low is that minimum SpO2 > 67 and ≤ 74.",
+  "minSpO2_Mid": "The meaning of minSpO2_Mid is that minimum SpO2 > 74 and ≤ 79.",
+  "minSpO2_High": "The meaning of minSpO2_High is that minimum SpO2 > 79 and ≤ 84.",
+  "minSpO2_VeryHigh": "The meaning of minSpO2_VeryHigh is that minimum SpO2 > 84.",
+
+  "meanSpO2_VeryLow": "The meaning of meanSpO2_VeryLow is that mean SpO2 ≤ 92.3.",
+  "meanSpO2_Low": "The meaning of meanSpO2_Low is that mean SpO2 > 92.3 and ≤ 94.",
+  "meanSpO2_Mid": "The meaning of meanSpO2_Mid is that mean SpO2 > 94 and ≤ 95.1.",
+  "meanSpO2_High": "The meaning of meanSpO2_High is that mean SpO2 > 95.1 and ≤ 96.",
+  "meanSpO2_VeryHigh": "The meaning of meanSpO2_VeryHigh is that mean SpO2 > 96.",
+
+  "OD90_VeryLow": "The meaning of OD90_VeryLow is that OD90 ≤ 3.32.",
+  "OD90_Low": "The meaning of OD90_Low is that OD90 > 3.32 and ≤ 9.84.",
+  "OD90_Mid": "The meaning of OD90_Mid is that OD90 > 9.84 and ≤ 22.8.",
+  "OD90_High": "The meaning of OD90_High is that OD90 > 22.8 and ≤ 46.13.",
+  "OD90_VeryHigh": "The meaning of OD90_VeryHigh is that OD90 > 46.13.",
+
+  "MaxApnea_VeryLow": "The meaning of MaxApnea_VeryLow is that maximum apnea duration ≤ 49.8.",
+  "MaxApnea_Low": "The meaning of MaxApnea_Low is that maximum apnea duration > 49.8 and ≤ 62.1.",
+  "MaxApnea_Mid": "The meaning of MaxApnea_Mid is that maximum apnea duration > 62.1 and ≤ 74.",
+  "MaxApnea_High": "The meaning of MaxApnea_High is that maximum apnea duration > 74 and ≤ 89.34.",
+  "MaxApnea_VeryHigh": "The meaning of MaxApnea_VeryHigh is that maximum apnea duration > 89.34.",
+
+  "CAI_Low": "The meaning of CAI_Low is that CAI ≤ 0.3.",
+  "CAI_Mid": "The meaning of CAI_Mid is that CAI ≥ 0.3 and ≤ 0.6.",
+  "CAI_High": "The meaning of CAI_High is that CAI > 0.6 and ≤ 1.3.",
+  "CAI_Extreme": "The meaning of CAI_Extreme is that CAI > 1.3.",
+
+  "Tonsil_Low": "The meaning of Tonsil_Low is that tonsil grade = 1.0.",
+  "Tonsil_Mid": "The meaning of Tonsil_Mid is that tonsil grade = 2.0.",
+  "Tonsil_High": "The meaning of Tonsil_High is that tonsil grade ≥ 3.0.",
+
+  "Loundness_VeryLow": "The meaning of Loundness_VeryLow is that loudness score ≤ 5.0.",
+  "Loundness_Low": "The meaning of Loundness_Low is that loudness score > 5.0 and ≤ 7.0.",
+  "Loundness_Mid": "The meaning of Loundness_Mid is that loudness score > 7.0 and ≤ 8.0.",
+  "Loundness_High": "The meaning of Loundness_High is that loudness score > 8.0 and ≤ 9.0.",
+  "Loundness_VeryHigh": "The meaning of Loundness_VeryHigh is that loudness score > 9.0.",
+
+  "SAHI_VeryLow": "The meaning of SAHI_VeryLow is that SAHI ≤ 36.4.",
+  "SAHI_Low": "The meaning of SAHI_Low is that SAHI > 36.4 and ≤ 54.8.",
+  "SAHI_Mid": "The meaning of SAHI_Mid is that SAHI > 54.8 and ≤ 66.62.",
+  "SAHI_High": "The meaning of SAHI_High is that SAHI > 66.62 and ≤ 77.8.",
+  "SAHI_VeryHigh": "The meaning of SAHI_VeryHigh is that SAHI > 77.8.",
+
+  "WHR_VeryLow": "The meaning of WHR_VeryLow is that WHR ≤ 0.89.",
+  "WHR_Low": "The meaning of WHR_Low is that WHR > 0.89 and ≤ 0.92.",
+  "WHR_Mid": "The meaning of WHR_Mid is that WHR > 0.92 and ≤ 0.94.",
+  "WHR_High": "The meaning of WHR_High is that WHR > 0.94 and ≤ 0.97.",
+  "WHR_VeryHigh": "The meaning of WHR_VeryHigh is that WHR > 0.97.",
+
+  "Lower90_VeryLow": "The meaning of Lower90_VeryLow is that <90% time ≤ 1.0.",
+  "Lower90_Low": "The meaning of Lower90_Low is that <90% time > 1.0 and ≤ 3.6.",
+  "Lower90_Mid": "The meaning of Lower90_Mid is that <90% time > 3.6 and ≤ 10.2.",
+  "Lower90_High": "The meaning of Lower90_High is that <90% time > 10.2 and ≤ 23.8.",
+  "Lower90_VeryHigh": "The meaning of Lower90_VeryHigh is that <90% time > 23.8.",
+
+  "Pharyngeal_Low": "The meaning of Pharyngeal_Low is that pharyngeal stenosis score ≤ 1.5.",
+  "Pharyngeal_Mid": "The meaning of Pharyngeal_Mid is that pharyngeal stenosis score = 2.",
+  "Pharyngeal_High": "The meaning of Pharyngeal_High is that pharyngeal stenosis score > 2.",
+
+  "Friedman_Low": "The meaning of Friedman_Low is that Friedman stage ≤ 2.0.",
+  "Friedman_Mid": "The meaning of Friedman_Mid is that Friedman stage = 3.0.",
+  "Friedman_High": "The meaning of Friedman_High is that Friedman stage = 4.0.",
+
+  "REM_Low": "The meaning of REM_Low is that REM index ≤ 42.3.",
+  "REM_Mid": "The meaning of REM_Mid is that REM index > 42.3 and ≤ 58.98.",
+  "REM_High": "The meaning of REM_High is that REM index > 58.98.",
+
+  "REMMIN_Low": "The meaning of REMMIN_Low is that REM min latency ≤ 82.5.",
+  "REMMIN_Mid": "The meaning of REMMIN_Mid is that REM min latency > 82.5 and ≤ 138.51.",
+  "REMMIN_High": "The meaning of REMMIN_High is that REM min latency > 138.51.",
+
+  "SlowWave_Low": "The meaning of SlowWave_Low is that slow wave sleep latency ≤ 48.06.",
+  "SlowWave_Mid": "The meaning of SlowWave_Mid is that slow wave sleep latency > 48.06 and ≤ 119.62.",
+  "SlowWave_High": "The meaning of SlowWave_High is that slow wave sleep latency > 119.62.",
+
+  "WakeTimes_Low": "The meaning of WakeTimes_Low is that awakening times ≤ 3.",
+  "WakeTimes_Mid": "The meaning of WakeTimes_Mid is that awakening times > 3 and ≤ 6.",
+  "WakeTimes_High": "The meaning of WakeTimes_High is that awakening times > 6.",
+
+  "Low_Pressure_Low": "The meaning of Low_Pressure_Low is that low pressure ≤ 4.0.",
+  "Low_Pressure_Mid": "The meaning of Low_Pressure_Mid is that low pressure > 4.0 and ≤ 5.0.",
+  "Low_Pressure_High": "The meaning of Low_Pressure_High is that low pressure > 5.0.",
+
+  "High_Pressure_Low": "The meaning of High_Pressure_Low is that high pressure ≤ 12.0.",
+  "High_Pressure_Mid": "The meaning of High_Pressure_Mid is that high pressure > 12.0 and ≤ 15.0.",
+  "High_Pressure_High": "The meaning of High_Pressure_High is that high pressure > 15.0."
+}

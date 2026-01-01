@@ -1,0 +1,24 @@
+You are a respiratory expert in snoring. You need to select the appropriate ventilator for the patient based on their clinical data. Mainly, the high-pressure parameters of the ventilator are up to you to decide.
+
+The characteristics of this patient are: {patient_features}
+
+The relationships description based on the characteristics of the patients:
+{relations}
+
+########Task########
+To enhance the accuracy of the recommendations, we will provide you with several rules of patients so that you can make better choices based on these patient rules.
+Please remember that our goal is to refer to these rules and relationships and make a selection and recommendation for the determination of the high pressure range of the ventilator based on your own judgment.
+
+The following are the rules regarding the "High_Pressure" setting of ventilators:
+{rules}
+
+Classification description of high-pressure values of ventilators:
+The "pressure_high": "High_Pressure" setting can only be selected from three options: "Low", "Mid" and "High". "Low" is "High_Pressure_Low", the range of the corresponding values is less than or equal to 12.0. "Mid" is "High_Pressure_Mid", the range of the corresponding values is greater than 12.0 and less than or equal to15.0. "High" is "High_Pressure_High", the range of the corresponding values is greater than 15.0. Please select a suitable range of "pressure_high" based on the ranges of these three intervals.
+
+The definitions of the prediction targets are as follows：
+The "pressure_high": "High_Pressure" Definition：The maximum allowable pressure of the automatic pressure-regulating ventilator is the upper limit that the machine can gradually increase to when encountering an airway obstruction event.
+
+########Output########
+{{"pressure_high": "predict_pressure_high"}}
+
+In conclusion, your task is to predict the high voltage parameters of the pager based on the given information. Just provide a JSON answer without any explanation. Make sure to strictly follow the following format. "predict_pressure_high" can only be selected：{select}, one of them.
